@@ -1,0 +1,32 @@
+.marker {
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .marker::before {
+    font-family: FontAwesome;
+    font-size: 25px;
+    content: "\f1b9";
+    color: red;
+  }
+  div.mapboxgl-popup {
+    width: 150px;
+  }
+  
+  div.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  div.mapboxgl-popup-content h4 {
+    color: black;
+    text-shadow: none;
+    font-size: 15px;
+  }
+  div.mapboxgl-popup-content button {
+    color: black;
+    font-style: unset;
+    border: none;
+    background-color: transparent;
+  }

@@ -1,0 +1,1 @@
+<img id="error_img" src="view/img/404.jpg" alt="">

@@ -1,0 +1,27 @@
+{
+    "en" : {
+        "¿Tipo de vehículo?" : "What type of vehicle?",
+        "Matrícula/Número de bastidor" : "Car plate/Frame number car",
+        "CV/Km/Precio" : "CV/Km/Price",
+        "Fecha" : "Date",
+        "Color" : "Color",
+        "Descripción" : "Description",
+        "Estas seguro de eliminar el vehículo con esta matrícula->" : "Are you sure about deleting the car with this car plate->",
+        "Español" : "Spain",
+        "Catalán" : "Catalan",
+        "Inglés" : "English",
+        "Marca" : "Brand car",
+        "Modelo" : "Model car",
+        "KM" : "KM",
+        "Matrícula" : "Car plate",
+        "Numero de Bastidor" : "Frame number car",
+        "CV" : "CV",
+        "Precio" : "Price",
+        "Todos" : "All",
+        "Seleccione que marcas quiere para cargar dummies" : "Seleccione que marcas quiere para cargar dummies",
+        "Inicio" : "Introduction",
+        "Coches" : "Cars",
+        "Servicios" : "Services",
+        "Contacto" : "Contact"
+    }
+}

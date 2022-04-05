@@ -1,0 +1,27 @@
+{
+    "es" : {
+        "¿Tipo de vehículo?" : "¿Tipo de vehículo?",
+        "Matrícula/Número de bastidor" : "Matrícula/Número de bastidor",
+        "CV/Km/Precio" : "CV/Km/Precio",
+        "Fecha" : "Fecha",
+        "Color" : "Color",
+        "Descripción" : "Descripción",
+        "Estas seguro de eliminar el vehículo con esta matrícula->" : "Estas seguro de eliminar el vehículo con esta matrícula->",
+        "Español" : "Español",
+        "Catalán" : "Catalán",
+        "Inglés" : "Inglés",
+        "Marca" : "Marca",
+        "Modelo" : "Modelo",
+        "KM" : "KM",
+        "Matrícula" : "Matrícula",
+        "Numero de Bastidor" : "Numero de Bastidor",
+        "CV" : "CV",
+        "Precio" : "Precio",
+        "Todos" : "Todos",
+        "Seleccione que marcas quiere para cargar dummies" : "Seleccione que marcas quiere para cargar dummies",
+        "Inicio" : "Inicio",
+        "Coches" : "Coches",
+        "Servicios" : "Servicios",
+        "Contacto" : "Contacto"
+    }
+}

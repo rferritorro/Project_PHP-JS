@@ -1,0 +1,52 @@
+@media screen and (max-width: 980px) {
+
+	.container, .inner-container{
+		padding: 15px;
+		width:100%;
+	}
+	.page-container.container {width: 100%; }
+	.logo {
+	  display: block;
+	  margin: 0 auto;
+	  width: 290px;
+	}
+
+	.show-mobile{display: block;}
+
+	footer{background-size: cover;}
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+	footer{background-size: contain;}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	label {
+	  display: inline-block;
+	  margin: 1em 0 -0.3em 0.5em;
+	  padding: 0;
+	  text-align: left;
+	  vertical-align: middle;
+	  width: 100%;
+	}
+	input, textarea {width: 100%; }
+	h1, .h1 {font-size: 1.2em; }
+
+	.logo {width: 100%; }
+	.logo a {text-align: center; }
+	.green-btn {margin: 1.5em auto; }
+	nav a {margin: 0.3em 0.3em 0.3em 0; }
+	h1, .h1 {width: 100%; }
+	article{margin-bottom: 3em;}
+	.copy-header {right: 10px; }
+}
+
+@media screen and (max-width: 320px) {
+
+}
+

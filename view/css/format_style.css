@@ -1,0 +1,297 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: black;
+    height: 100%;
+
+}
+#header img {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid red;
+}
+#menu {
+    position: absolute;   
+    display: flex;
+    flex-direction: column;
+    background-color: #201d1d;
+    height: 100%;
+    width: 155px;
+}
+#menu a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    width: 150px;
+    text-align: center;
+    padding: 10% 0%;
+
+}
+#menu a:hover {
+  background-color: red;
+  color: white;
+}
+
+#footer {
+    position: absolute;
+    bottom: -50%;
+    background-color: #201d1d;
+    width: 100%;
+    height: 20%;
+    border-top: 2px solid red;
+}
+#header_options {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    z-index: 101;
+}
+
+
+/* Dropdown */
+div.ms-dd {
+    width: 110px;
+    font-size: 12px ;
+    height: 10%;
+}
+img.ms-dd-option-image {
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+#list #move_text {
+    height: 5%;
+    width: 100%;
+    background-color: #201d1d;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#list #move_text button#create_car {
+margin-left: 2%;
+margin-top: -0.5%;
+}
+
+#list i {
+    color: white;
+}
+#list i:hover{
+    color: red;
+}
+
+#list button {
+    background-color: transparent;
+    border: none;
+}
+#list button i {
+    margin: 0px 20px;
+}
+
+#logo_home {
+    width: 100px;
+    height: 100px;
+}
+#form_home p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+#select_dummie {
+    margin: 3%;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    border: 2px solid red;
+}
+#create_dummies {
+    position: absolute;
+    right: 50%;
+}
+
+
+form#create {
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    width: 65%;
+    height: auto;
+    position: absolute;
+    display: inline;
+    right: 15%;
+    font-size: 15px;
+}
+form#create input#put_CV, input#put_kilometres, input#put_price {
+    background-color: transparent;
+    color: white;
+    width: 7%;
+    border: none;
+}
+form#create  input#put_color {
+    background-color: transparent;
+    color: white;
+    width: 10%;
+    border: none;
+}
+form#create textarea#description {
+    background-color: black;
+    color: white;
+    resize: none;
+    border: 1px solid red;
+    border-left: 5px solid red;
+}
+form#create * {
+    margin: 1.5% 0%;
+    margin-left: 2%;
+}
+
+form#create select{
+    width: 20%;
+    color: white;
+    background-color: transparent;
+    border: 1px solid red;
+    border-left: 5px solid red;
+    text-align: center;
+}
+form#create input#car_plate, input#frame_number ,input#fecha {
+    border: 1px solid red;
+    border-left: 5px solid red;
+    background-color: black;
+    color: white;
+}
+form#create select option {
+   
+    background-color: black;
+    color: white;
+}
+
+
+form#create input#CV[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+
+    background : red
+}
+
+form#create input#CV[type=range]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background : transparent;
+}
+
+form#create div#buttons{
+    position: static;
+    text-align: center;
+    width: 95%;
+    background-color: transparent;
+}
+
+form#create div#buttons button {
+    background-color: transparent;
+    border: none;
+}
+
+form#create div#buttons button,button#button_submit {
+   
+    color: red;
+}
+form#create div#buttons button:hover,button#button_submit:hover {
+   
+    color: white;
+}
+form#delete {
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    width: 60%;
+    background-color: black;
+    color:white;
+    border: 2px solid red;
+}
+form#delete p{
+margin: 5% 0%;
+font-size: 20px;
+}
+form#delete button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    margin: 5% 2%;
+}
+form#delete button:hover {
+    
+    color: white;
+}
+form#form_home button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    position: absolute;
+    margin-left: 4%;
+}
+button#all {
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+    padding: 1.5%;
+    font-size: 20px;
+}
+button#all:hover {
+    color: white;
+}
+form#form_home button:hover {
+  color: white;
+}
+#error_img {
+    position: absolute;
+    top: 15%;
+    right: 35%;
+}
+div.datepicker-days {
+    position: fixed;
+    background-color: white;
+    top: 60%;
+    right: 2%;
+    border: 1px solid red;
+    background-color: #646262;
+    color: red;
+}
+div.datepicker-days td.day {
+   border: 1px solid black;
+}
+div.datepicker-days th.dow {
+    background-color: black; 
+}
+div#error_marc {
+    width: 80%;
+    height: 60%;
+    position: fixed;
+    background-color: white;
+    left: 10%;
+    top: 15%;
+    z-index: 1;
+    display: none;
+    border: 2px solid red;
+}
+div#error_marc button#close_error {
+    border: none;
+    background-color: transparent;
+    color: red;
+    position: absolute;
+    right: 0%;
+}
+
+div#button_area {
+    background-color: #646262;
+    height: 10%;
+    width: 100%;
+}
+
